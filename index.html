@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>landscape_homework.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="landscape-homework">Landscape Homework</h1>
+<h2 id="about">About</h2>
+<p>This document is created for Lone Pine Landscapes for showing what we prefer. Lone Pine can refer to these inspiration images for design ideas. We took photos from open inspections in upper north shore or googled.</p>
+<p>Please use this document for reference only. Designer shall feel free to input any ideas based on his experiences and professionals. We welcome any good design ideas.</p>
+<h3 id="table-of-contents">Table of Contents</h3>
+<ol>
+<li><a href="#Backyard">Backyard</a></li>
+<li><a href="#East-side">East side</a></li>
+<li><a href="#West-side">West side</a></li>
+<li><a href="#Frontyard">Frontyard</a></li>
+</ol>
+<h2 id="backyard">Backyard</h2>
+<h4 id="pool-with-or-without-infinite-edge">Pool with or without infinite edge</h4>
+<p><img src="backyard/backyard_1.jpg" alt="image"></p>
+<p>Ref: https://www.realestate.com.au/sold/property-house-nsw-st+ives-128278750</p>
+<p><img src="backyard/backyard_2.jpg" alt="image"></p>
+<h4 id="in-ground-pool-with-ret-wall-surrounded-also-nice">In-Ground pool with ret wall surrounded also nice</h4>
+<p><img src="backyard/backyard_3.jpg" alt="image">
+<img src="backyard/backyard_8.jpg" alt="image"></p>
+<p>Ref: https://www.realestate.com.au/property/16-surrey-rd-turramurra-nsw-2074</p>
+<p><img src="backyard/inground_pool_with_water_fall_feature.jpg" alt="image"></p>
+<p>Ref: https://www.realestate.com.au/sold/property-house-nsw-turramurra-134005254</p>
+<h4 id="pool-with-glass-wall-one-side">Pool with glass wall one side</h4>
+<p><img src="backyard/pool_glass_wall_sample_1.jpg" alt="image">
+<img src="backyard/pool_glass_wall_sample_2.jpg" alt="image">
+<img src="backyard/pool_glass_wall_sample_3.jpg" alt="image"></p>
+<p>Ref: https://www.realestate.com.au/property//13-parry-st-putney-nsw-2112</p>
+<h4 id="if-we-will-not-build-infinity-pool-or-glass-edge-pool-instead-water-fall-feature-on-the-pool-side-water-also-nice-we-can-see-such-water-feature-from-dining-room">If we will not build infinity pool or glass edge pool. Instead, water fall feature on the pool side water also nice. We can see such water feature from dining room</h4>
+<p><img src="backyard/pool_side_water_feature.jpg" alt="image">
+<img src="backyard/pool_water_feature_2.jpg" alt="image"></p>
+<p>Ref: https://www.realestate.com.au/sold/property-house-nsw-point+piper-135873394</p>
+<h4 id="other-good-examples-of-inground-pool-with-one-flat-terrace">Other good examples of inground pool with one flat terrace</h4>
+<p><img src="backyard/inground_pool_with_terrace_lawn.jpg" alt="image"></p>
+<p>Ref: https://www.realestate.com.au/sold/property-house-nsw-st+ives-134867650</p>
+<p><img src="backyard/inground_pool_with_ret_wall_2.jpg" alt="image"></p>
+<h4 id="example-of-inground-pool-with-high-ret-wall-at-the-far-end">Example of inground pool with high ret wall at the far end</h4>
+<p><img src="backyard/inground_pool_with_ret_wall_3.jpg" alt="image"></p>
+<p>Ref: https://www.realestate.com.au/sold/property-house-nsw-north+epping-135294230</p>
+<h4 id="dead-flat-with-high-ret-wall">Dead flat with high ret wall</h4>
+<p><img src="backyard/dead_flat_backyard_with_high_ret_wall_1.jpg" alt="image"></p>
+<p>Ref: https://www.realestate.com.au/sold/property-house-nsw-bellevue+hill-134587862</p>
+<h4 id="timber-steps-connecting-to-pegola-deck">Timber steps connecting to pegola deck</h4>
+<p><img src="backyard/backyard_9.jpg" alt="image"></p>
+<p>Ref: https://www.domain.com.au/2-bellevue-parade-north-curl-curl-nsw-2099-2016542914</p>
+<h4 id="lawn-area-with-few-steps-up">Lawn area with few steps up</h4>
+<p><img src="backyard/backyard_4.jpg" alt="image">
+<img src="backyard/backyard_5.jpg" alt="image">
+<img src="backyard/backyard_6.jpg" alt="image">
+<img src="backyard/backyard_7.jpg" alt="image"></p>
+<h4 id="rendered-ret-wall-or-sandstone">rendered ret wall or sandstone</h4>
+<p><img src="backyard/backyard_10.jpg" alt="image"></p>
+<p>Ref: https://www.realestate.com.au/sold/property-house-nsw-turramurra-134005254</p>
+<h4 id="dense-hedge">Dense hedge</h4>
+<p>Neighbour at rear of the lot needs her privacy. If we removed the existing tree at rear of the lot, we could put some dense hedge, for example:
+<img src="dense_hedge/backyard_dense_hedge_1.jpg" alt="image">
+<img src="dense_hedge/backyard_dense_hedge_2.jpg" alt="image"></p>
+<h2 id="east-side">East side</h2>
+<p>East side has lots sun in the morning and afternoon before 2pm.</p>
+<h4 id="pergola-and-deck-attached-sitting-room">Pergola and deck attached Sitting room.</h4>
+<p>The pergola and desk feature can be optional and leave as future build for budget reason.
+<img src="sitting_room_deck_and_pergola/sitting_room_deck_and_pergola_1.jpg" alt="image">
+<img src="sitting_room_deck_and_pergola/sitting_room_deck_and_pergola_2.jpg" alt="image">
+<img src="sitting_room_deck_and_pergola/sitting_room_deck_and_pergola_3.jpg" alt="image"></p>
+<h4 id="atrium-next-to-the-sitting-area">Atrium next to the sitting area</h4>
+<p><img src="sitting_room_deck_and_pergola/sitting_area_atrium.jpg" alt="image"></p>
+<h4 id="without-pergola-design-also-nice">Without pergola design also nice</h4>
+<p><img src="sitting_room_deck_and_pergola/sitting_room_outside_with_no_pergola.jpg" alt="image"></p>
+<p>Ref: https://www.domain.com.au/16-thompson-street-mosman-nsw-2088-2016811173</p>
+<h2 id="west-side">West side</h2>
+<p>the narrow side</p>
+<h4 id="some-green-leaf-on-the-fence">some green leaf on the fence</h4>
+<p>Because we can see through from kitchen and pantry glass. We wanna some low maintain plants there. Ground surface prefer to be sealed by concrete.<br>
+<img src="west_side_the_narrow_side/west_side_the_narrow_side.jpg" alt="image"></p>
+<h2 id="frontyard">Frontyard</h2>
+<h4 id="prefer-a-flat-lawn-block-with-ret-wall-at-each-end-it-would-be-nice-to-have-a-big-flat-terrace-in-front-yard">Prefer a flat lawn block with ret wall at each end. It would be nice to have a big flat terrace in front yard.</h4>
+<p><img src="front_yard/front_yard_1_1.jpg" alt="image">
+<img src="front_yard/front_yard_1_2.jpg" alt="image">
+<img src="front_yard/front_yard_2_1.jpg" alt="image">
+<img src="front_yard/front_yard_2_2.jpg" alt="image"></p>
+<ul>
+<li>Ref: https://www.realestate.com.au/sold/property-house-nsw-turramurra-134868514</li>
+<li>Ref: https://www.realestate.com.au/sold/property-house-nsw-pymble-134804042</li>
+</ul>
+<h4 id="existing-plants-in-frontyard-slope-are-still-nice-but-need-to-mulch-trim-and-cleanup-photo-taken-at-year-2015-when-we-first-bought-the-property">Existing plants in frontyard slope are still nice but need to mulch, trim and cleanup. Photo taken at year 2015 when we first bought the property</h4>
+<p><img src="front_yard/existing_front_yard_slope.jpg" alt="image"></p>
+<h4 id="photo-taken-just-before-demolition-in-2020">photo taken just before demolition in 2020</h4>
+<p><img src="front_yard/frontyard_2020_1.jpg" alt="image">
+<img src="front_yard/frontyard_2020_2.jpg" alt="image"></p>
+<h4 id="the-metricon-hampshire-lodge-facade">The Metricon Hampshire lodge facade</h4>
+<p>This is the facade we chosen, a contemporary and lodge feel facade, which we think harmonized to the surrounding leafy street feel.
+<img src="front_yard/facade_1.jpg" alt="image">
+<img src="front_yard/facade_2.jpg" alt="image"></p>
+<h4 id="our-facade-cladding-board-and-garage-door-color-are-called-caobaanother-name-maybe-cabots-rich-walnut-color">Our facade cladding board and garage door color are called Caoba(another name maybe Cabots Rich Walnut?) color.</h4>
+<p><img src="front_yard/caoba_color.jpg" alt="image"></p>
+<h4 id="front-yard-stair-cases">Front yard stair cases.</h4>
+<p>Prefer stair cases from the lot boundry. But if for the budget reason, stair could start from the end of driveway.
+<img src="front_yard/front_yard_stairs.png" alt="image">
+<img src="front_yard/sloped-backyard-patio-contemporary-with-hillside-landscaping_outdoor-patio-and-backyard.jpg" alt="image"></p>
+<h4 id="front-yard-small-fountains-and-water-pond-feature-also-nice-if-easy-to-build">Front yard small fountains and water pond feature also nice if easy to build</h4>
+<p><img src="front_yard/water_pond_feature_1.jpg" alt="image">
+<img src="front_yard/water_pond_feature_2.jpg" alt="image"></p>
+<h4 id="electric-gate-also-nice-but-most-likely-will-be-future-build-option">Electric gate also nice, but most likely will be future build option</h4>
+<h2 id="prepared-by">Prepared by</h2>
+<ul>
+<li>Bob Huang</li>
+<li>Email: xiaoyu0571@gmail.com</li>
+<li>Date: Apr 19, 2021</li>
+</ul>
+
+</body>
+</html>
