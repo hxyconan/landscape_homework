@@ -144,16 +144,16 @@ Because we can see through from kitchen and pantry glass. We wanna some low main
 
 
 #### The Metricon Hampshire lodge facade
-This is the facade we chosen, a contemporary and lodge feel facade, which we think harmonized to the surrounding leafy street feel. 
+This is the facade we chosen, a contemporary and lodge feel facade, it shall harmonize to the surrounding leafy street look.
 ![image](front_yard/facade_1.jpg)
 ![image](front_yard/facade_2.jpg)
 
-#### Our facade cladding board and garage door color are called Caoba(another name maybe Cabots Rich Walnut?) color.
+#### Our facade cladding board and garage door color are called Caoba(another name maybe Cabots Rich Walnut?).
 ![image](front_yard/caoba_color.jpg)
 
 
 #### Front yard stair cases.
-Prefer stair cases from the lot boundry. But if for the budget reason, stair could start from the end of driveway.
+Prefer stair cases from the lot boundry. But if for the budget reason, stair could start near the end of driveway.
 ![image](front_yard/front_yard_stairs.png)
 ![image](front_yard/sloped-backyard-patio-contemporary-with-hillside-landscaping_outdoor-patio-and-backyard.jpg)
 
@@ -161,5 +161,6 @@ Prefer stair cases from the lot boundry. But if for the budget reason, stair cou
 ![image](front_yard/water_pond_feature_1.jpg)
 ![image](front_yard/water_pond_feature_2.jpg)
 
-#### Electric gate also nice, but most likely will be future build option
-
+#### Electric gate also nice, but most likely will be future build
+![image](front_yard/frontyard_gate_sample_1.jpg)
+![image](front_yard/frontyard_gate_sample_2.jpg)
