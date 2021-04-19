@@ -27,6 +27,17 @@ Ref: https://www.realestate.com.au/property/16-surrey-rd-turramurra-nsw-2074
 ![image](backyard/inground_pool_with_water_fall_feature.jpg)
 Ref: https://www.realestate.com.au/sold/property-house-nsw-turramurra-134005254
 
+- Pool with glass wall one side
+![image](backyard/pool_glass_wall_sample_1.jpg)
+![image](backyard/pool_glass_wall_sample_2.jpg)
+![image](backyard/pool_glass_wall_sample_3.jpg)
+Ref: https://www.realestate.com.au/property//13-parry-st-putney-nsw-2112
+
+
+
+- If we will not build infinity pool or glass edge pool. Some water feature on the pool side water also nice. We can see such water feature from dining room
+![image](backyard/pool_side_water_feature.jpg)
+
 Other examples of inground pool with one flat lawn terrace
 ![image](backyard/inground_pool_with_terrace_lawn.jpg)
 Ref: https://www.realestate.com.au/sold/property-house-nsw-st+ives-134867650
@@ -94,18 +105,21 @@ Because we can see through from kitchen and pantry glass. We wanna some low main
 
 ## Frontyard
 - Prefer a flat lawn block with ret wall at each end. It would be nice to have a big flat terrace on front yard.
-![image](front_yard/front_yard_1.jpg)
-![image](front_yard/front_yard_2.jpg)
-Ref: https://www.realestate.com.au/sold/property-house-nsw-turramurra-134868514
-Ref: https://www.realestate.com.au/sold/property-house-nsw-pymble-134804042
+![image](front_yard/front_yard_1_1.jpg)
+![image](front_yard/front_yard_1_2.jpg)
+![image](front_yard/front_yard_2_1.jpg)
+![image](front_yard/front_yard_2_2.jpg)
+  * Ref: https://www.realestate.com.au/sold/property-house-nsw-turramurra-134868514
+  * Ref: https://www.realestate.com.au/sold/property-house-nsw-pymble-134804042
 
 
 - Existing plants in frontyard slope are still nice but need to mulch, trim and cleanup. Photo taken at year 2015 when we first bought the property
 ![image](front_yard/existing_front_yard_slope.jpg)
 
 - photo taken just before demolition in 2020
-![image](front_yard/frontyard_2021_2.jpg)
-![image](front_yard/frontyard_2021_1.jpg)
+![image](front_yard/frontyard_2020_1.jpg)
+![image](front_yard/frontyard_2020_2.jpg)
+
 
 - The Metricon Hampshire lodge facade
 This is the facade we chosen, a contemporary and lodge feel facade, which we think harmonized to the surrounding leafy street feel. 
@@ -116,8 +130,12 @@ Our facade cladding board and garage door color are called Caoba(another name ma
 ![image](front_yard/caoba_color.jpg)
 
 
-- Front yerd stair cases.
+- Front yard stair cases.
 Prefer stair cases from the boundry lot. If for the budget reason, stair could start from the end of driveway.
 ![image](front_yard/front_yard_stairs.png)
 ![image](front_yard/sloped-backyard-patio-contemporary-with-hillside-landscaping_outdoor-patio-and-backyard.jpg)
+
+- Front yard small fountains and water pond feature also nice if easy to build
+![image](front_yard/water_pond_feature_1.jpg)
+![image](front_yard/water_pond_feature_2.jpg)
 
