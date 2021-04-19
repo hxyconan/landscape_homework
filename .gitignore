@@ -1,1 +1,4 @@
 .DS_Store
+
+# ignore the exported html
+landscape_homework.html
