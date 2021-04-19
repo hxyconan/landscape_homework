@@ -33,28 +33,26 @@ Ref: https://www.realestate.com.au/sold/property-house-nsw-turramurra-134005254
 ![image](backyard/pool_glass_wall_sample_3.jpg)
 Ref: https://www.realestate.com.au/property//13-parry-st-putney-nsw-2112
 
-
-
 - If we will not build infinity pool or glass edge pool. Some water feature on the pool side water also nice. We can see such water feature from dining room
 ![image](backyard/pool_side_water_feature.jpg)
+![image](backyard/pool_water_feature_2.jpg)
+Ref: https://www.realestate.com.au/sold/property-house-nsw-point+piper-135873394
 
-Other examples of inground pool with one flat lawn terrace
+
+- Other examples of inground pool with one flat lawn terrace
 ![image](backyard/inground_pool_with_terrace_lawn.jpg)
 Ref: https://www.realestate.com.au/sold/property-house-nsw-st+ives-134867650
 
 ![image](backyard/inground_pool_with_ret_wall_2.jpg)
 
-Example of inground pool with high ret wall at the far end
+- Example of inground pool with high ret wall at the far end
 ![image](backyard/inground_pool_with_ret_wall_3.jpg)
 Ref: https://www.realestate.com.au/sold/property-house-nsw-north+epping-135294230
 
 
-Dead flat with high ret wall
+- Dead flat with high ret wall
 ![image](backyard/dead_flat_backyard_with_high_ret_wall_1.jpg)
 Ref: https://www.realestate.com.au/sold/property-house-nsw-bellevue+hill-134587862
-
-
-
 
 - Timber steps connecting to pegola deck
 ![image](backyard/backyard_9.jpg)
