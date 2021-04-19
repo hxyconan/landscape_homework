@@ -81,7 +81,7 @@ Ref: https://www.domain.com.au/2-bellevue-parade-north-curl-curl-nsw-2099-201654
 ![image](backyard/backyard_7.jpg)
 
 
-#### rendered ret wall or sandstone
+#### ret wall can be rendered or sandstone
 ![image](backyard/backyard_10.jpg)
 
 Ref: https://www.realestate.com.au/sold/property-house-nsw-turramurra-134005254
@@ -97,7 +97,7 @@ Neighbour at rear of the lot needs her privacy. If we removed the existing tree 
 ## East side <a name="East-side"></a>
 East side has lots sun in the morning and afternoon before 2pm.
 
-####  Pergola and deck attached Sitting room.
+####  Pergola and deck attached to sitting room.
 The pergola and desk feature can be optional and leave as future build for budget reason.
 ![image](sitting_room_deck_and_pergola/sitting_room_deck_and_pergola_1.jpg)
 ![image](sitting_room_deck_and_pergola/sitting_room_deck_and_pergola_2.jpg)
@@ -119,8 +119,11 @@ Ref: https://www.domain.com.au/16-thompson-street-mosman-nsw-2088-2016811173
 the narrow side
 
 #### some green leaf on the fence
-Because we can see through from kitchen and pantry glass. We wanna some low maintain plants there. Ground surface prefer to be sealed by concrete.  
+- Because we can see through from kitchen and pantry glass. We wanna some low maintain plants there. Ground surface prefer to be sealed by concrete.  
 ![image](west_side_the_narrow_side/west_side_the_narrow_side.jpg)
+
+- or Giant Birds of Paradise Strelitzia nicolai?
+![image](west_side_the_narrow_side/giant_birds_of_paradise.jpg)
 
 
 ## Frontyard <a name="Frontyard"></a>
