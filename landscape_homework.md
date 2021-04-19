@@ -5,7 +5,13 @@ This document is created for Lone Pine Landscapes for showing what we prefer. Lo
 
 Please use this document for reference only. Designer shall feel free to input any ideas based on his experiences and professionals. We welcome any good design ideas.
 
-### Table of Contents
+## Prepared by
+- Bob Huang
+- Email: xiaoyu0571@gmail.com
+- Date: Apr 19, 2021
+
+
+## Table of Contents
 1. [Backyard](#Backyard)
 2. [East side](#East-side)
 3. [West side](#West-side)
@@ -13,6 +19,7 @@ Please use this document for reference only. Designer shall feel free to input a
 
 
 ## Backyard
+<a name="Backyard"></a>
 
 #### Pool with or without infinite edge 
 ![image](backyard/backyard_1.jpg)
@@ -89,6 +96,7 @@ Neighbour at rear of the lot needs her privacy. If we removed the existing tree 
 
 
 ## East side
+<a name="East-side"></a>
 East side has lots sun in the morning and afternoon before 2pm.
 
 ####  Pergola and deck attached Sitting room.
@@ -108,7 +116,9 @@ Ref: https://www.domain.com.au/16-thompson-street-mosman-nsw-2088-2016811173
 
 
 ## West side
+<a name="West-side"></a>
 the narrow side
+
 
 #### some green leaf on the fence
 Because we can see through from kitchen and pantry glass. We wanna some low maintain plants there. Ground surface prefer to be sealed by concrete.  
@@ -116,6 +126,7 @@ Because we can see through from kitchen and pantry glass. We wanna some low main
 
 
 ## Frontyard
+<a name="Frontyard"></a>
 
 #### Prefer a flat lawn block with ret wall at each end. It would be nice to have a big flat terrace in front yard.
 ![image](front_yard/front_yard_1_1.jpg)
@@ -154,9 +165,4 @@ Prefer stair cases from the lot boundry. But if for the budget reason, stair cou
 ![image](front_yard/water_pond_feature_2.jpg)
 
 #### Electric gate also nice, but most likely will be future build option
-
-## Prepared by
-- Bob Huang
-- Email: xiaoyu0571@gmail.com
-- Date: Apr 19, 2021
 
