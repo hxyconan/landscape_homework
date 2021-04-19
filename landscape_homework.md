@@ -5,7 +5,7 @@ This document is created for Lone Pine Landscapes for showing what we like. Lone
 Please use this document for reference only. Landscape designer should feel free to input any ideas based on his own experiences and professionals.
 
 
-# Table of Contents
+### Table of Contents
 1. [Backyard](#Backyard)
 2. [East side](#East-side)
 3. [West side](#West-side)
