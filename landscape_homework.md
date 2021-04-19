@@ -1,7 +1,7 @@
 # Landscape Homework
 
 ## About
-This document is created for Lone Pine Landscapes for showing what we prefer. Lone Pine can refer to those inspiration images for design ideas. We took photos from open inspections in upper north shore or googled.
+This document is created for Lone Pine Landscapes for showing what we prefer. Lone Pine can refer to these inspiration images for design ideas. We took photos from open inspections in upper north shore or googled.
 
 Please use this document for reference only. Designer shall feel free to input any ideas based on his experiences and professionals. We welcome any good design ideas.
 
@@ -14,7 +14,7 @@ Please use this document for reference only. Designer shall feel free to input a
 
 ## Backyard
 
-#### Pool or infinite pool 
+#### Pool with or without infinite edge 
 ![image](backyard/backyard_1.jpg)
 
 Ref: https://www.realestate.com.au/sold/property-house-nsw-st+ives-128278750
