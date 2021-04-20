@@ -52,7 +52,7 @@ Ref: https://www.realestate.com.au/sold/property-house-nsw-turramurra-134005254
 Ref: https://www.realestate.com.au/property//13-parry-st-putney-nsw-2112
 
 
-#### If we will not build infinity pool or glass edge pool. Instead, water fall feature on the pool side water also nice. We can see such water feature from dining room
+#### If we will not build infinity pool or glass edge pool. Instead, water fall feature on the pool wall also nice. We can see such water feature from dining room
 
 ![image](backyard/pool_side_water_feature.jpg)
 
@@ -114,7 +114,7 @@ Neighbour at rear of the lot needs her privacy. If we removed the existing tree 
 
 
 ## East side <a name="East-side"></a>
-East side has lots sun in the morning and afternoon before 2pm.
+East side has lots sunshine in the morning and afternoon before 2pm.
 
 ####  Pergola and deck attached to sitting room.
 The pergola and desk feature can be optional and leave as future build for budget reason.
