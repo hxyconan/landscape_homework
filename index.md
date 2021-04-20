@@ -35,6 +35,8 @@ Ref: https://www.realestate.com.au/sold/property-house-nsw-st+ives-128278750
 
 Ref: https://www.realestate.com.au/property/16-surrey-rd-turramurra-nsw-2074
 
+sandstone decorative wall with water feature also nice
+
 ![image](backyard/inground_pool_with_water_fall_feature.jpg)
 
 Ref: https://www.realestate.com.au/sold/property-house-nsw-turramurra-134005254
