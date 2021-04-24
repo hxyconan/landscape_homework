@@ -192,7 +192,8 @@ This is the facade we chosen, a contemporary and lodge feel facade, it shall har
 
 
 #### Front yard stair cases.
-Prefer stair cases from the lot boundry. But if for the budget reason, stair could start near the end of driveway.
+Prefer stair cases from the lot boundry. But if for the budget reason, stair could start near the end of driveway. 
+Alternatively, we also perfer flat walking track (no step) from driveway to porch. Then, who uses the driveway can walk into porch without any step.
 
 ![image](front_yard/front_yard_stairs.png)
 
